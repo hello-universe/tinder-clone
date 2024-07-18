@@ -9,9 +9,9 @@ import IconButton from "@mui/material/IconButton";
 export default function SwipeButtons() {
   return (
     <div className="swipeButtons">
-      <IconButton className="swipeButtons__repeat">
+      {/* <IconButton className="swipeButtons__repeat">
         <ReplayIcon fontSize="large" />
-      </IconButton>
+      </IconButton> */}
       <IconButton className="swipeButtons__left">
         <CloseIcon fontSize="large" />
       </IconButton>
